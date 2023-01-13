@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">responsi</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="title_activity_home1">Home1Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Payment</string>
+    <string name="title_notifications">History</string>
+    <string name="title_dashboard1">Setting</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">PAYMENT</string>
+    <string name="history_fragment">HISTORY</string>
+</resources>

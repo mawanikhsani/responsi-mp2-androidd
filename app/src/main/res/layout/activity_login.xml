@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="144dp"
+            app:srcCompat="@drawable/cat"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+
+        <TextView
+            android:id="@+id/txemail"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Email"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="225dp" />
+
+
+        <EditText
+            android:id="@+id/edemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Masukkan email"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="252dp" />
+
+        <TextView
+            android:id="@+id/txpassword"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteY="317dp" />
+
+        <EditText
+            android:id="@+id/edpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Masukkan password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="343dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txlupapass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?  Click"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="571dp" />
+
+        <TextView
+            android:id="@+id/herelupa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="here"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="186dp"
+            tools:layout_editor_absoluteY="570dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txhavent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Haven't Account?  Register"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="608dp" />
+
+        <TextView
+            android:id="@+id/herereg"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="here"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="609dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btlogin"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+</LinearLayout>
